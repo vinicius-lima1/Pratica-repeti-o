@@ -1,0 +1,9 @@
+void main() {
+  
+  List<double> tamanhos = [1.8,1.9,2,1.70,1.5,1.8,1.9,1.60, 1.80,1.65,2.10,1.70, 1.85, 1.65, 1.90];
+  
+  double resultado = 0;
+  tamanhos.forEach((tamanhos) => resultado += tamanhos);
+  
+  print(resultado / tamanhos.length);
+}
