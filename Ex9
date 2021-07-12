@@ -1,0 +1,9 @@
+void main() {
+  
+    List<double> pesos = [90, 80, 50, 65, 75, 100, 90];
+    
+    pesos.forEach((pesos) => pesos  > 90 ?
+                   print(pesos) :
+                   ""
+                   );           
+}
