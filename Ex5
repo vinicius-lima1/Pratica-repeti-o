@@ -1,0 +1,9 @@
+
+void main() {
+  
+  List<double> notas = [7,5,7.5,10,6,5,8,6,4,8.5];
+  
+  double media = 0;
+  notas.forEach((nota) => media += nota);
+  print(media / notas.length);
+}
